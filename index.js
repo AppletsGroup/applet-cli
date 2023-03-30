@@ -6,10 +6,10 @@ import { Command } from 'commander';
 import inquirer from 'inquirer';
 import { spawn } from 'child_process'
 
-const scaffoldPath = 'https://github.com/AppletsGroup/career.git'; // Replace with your Github repo URL
+const scaffoldPath = 'https://github.com/AppletsGroup/applet-template.git';
 
 const program = new Command();
-program.version('1.0.0');
+program.version('0.0.1');
 
 function createProject(projectName) {
   const projectPath = path.join(process.cwd(), projectName);
