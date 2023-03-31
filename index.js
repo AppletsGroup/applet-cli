@@ -9,7 +9,7 @@ import { spawn } from 'child_process'
 const scaffoldPath = 'https://github.com/AppletsGroup/applet-template.git';
 
 const program = new Command();
-program.version('0.0.1');
+program.version('0.0.5');
 
 function createProject(projectName) {
   const projectPath = path.join(process.cwd(), projectName);
